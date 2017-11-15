@@ -1,0 +1,88 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font: #232324;
+}
+
+/** Header **/
+#header-nav {
+    background-color: #232324;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+}
+li {
+    float: left;
+}
+#nav-list {
+    margin: 0;
+    border: 0;
+}
+#nav-list a {
+    color: #F8F8F8;
+    text-align: center;
+    padding: 14px 16px;
+}
+#nav-list a:hover {
+    background: #7a7a7a;
+}
+#nav-list a.active {
+    background: #29a1f1;
+}
+#bg1 {
+    background-image: url('/images/Himalayas.JPG');
+}
+.picBackdrop {
+    background-position: center;
+    background-size: cover;
+}
+
+/** Main Content **/
+h1 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    height: 60px;
+    font-size: 72px;
+    margin: 0;
+    color: #000000;
+    text-shadow: 2px 2px #29a1f1;
+}
+p {
+    padding-top: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/** About Me **/
+
+#about img {
+    height: 320px;
+    border-radius: 20px;
+    float: right;
+    margin: 1em 8% 1em 2em;
+}
+#about h2 {
+    text-align: center;
+
+}
+#about p {
+    margin-left: 5%;
+}
+
+/** Portfolio **/
+
+#portfolio {
+    text-align: center;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: #232324;
+}
+#footText {
+    color: #F8F8F8;
+    padding: 5px 10px;
+}
