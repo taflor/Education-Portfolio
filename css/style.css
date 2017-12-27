@@ -48,6 +48,18 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+#bg3 {
+    background-image: url('../images/happyTeachers.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sportsDay, #stupa {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
+}
 /** End Header Image **/
 
 /** Main Content **/
@@ -60,6 +72,10 @@ h1 {
     text-shadow: 1.4px 1.4px #d9ecf8;
     font-weight: bold;
     font-size: 5em;
+}
+#bg3 h1 {
+    color: #f3f5f7;
+    text-shadow: 1.4px 1.4px #151516;
 }
 h2 {
     text-align: center;
