@@ -1,18 +1,22 @@
-body {
+body, html {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
-    font: #232324;
+    font: #1f1f20;
+    height: 100%;
 }
 
-/** Header **/
+/** Navigation Bar **/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #29a1f1;
+}
+.navbar-collapse {
+    padding: 0;
+}
 #header-nav {
-    background-color: #232324;
+    background-color: #1f1f20;
     border-radius: 0;
     border: 0;
     margin: 0;
-}
-li {
-    float: left;
 }
 #nav-list {
     margin: 0;
@@ -21,7 +25,6 @@ li {
 #nav-list a {
     color: #F8F8F8;
     text-align: center;
-    padding: 14px 16px;
 }
 #nav-list a:hover {
     background: #7a7a7a;
@@ -29,24 +32,40 @@ li {
 #nav-list a.active {
     background: #29a1f1;
 }
+/** End Nav Bar **/
+/** Header Image **/
 #bg1 {
     background-image: url('/images/Himalayas.JPG');
-}
-.picBackdrop {
+    height: 100%; /* Full Height of Page */
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
+#bg2 {
+    background-image: url('/images/StupaEverestRange.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/** End Header Image **/
 
 /** Main Content **/
 h1 {
+    margin: 0; /* eliminates white margin between nav and background image */
+    padding-top: 25%; /* distance between name and navbar */
+    padding-bottom: 5%;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 120px;
-    height: 60px;
-    font-size: 72px;
-    margin: 0;
-    color: #000000;
-    text-shadow: 2px 2px #29a1f1;
+    color: #151516;
+    text-shadow: 1.4px 1.4px #d9ecf8;
+    font-weight: bold;
+    font-size: 5em;
+}
+h2 {
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1.2px 1px 0 #151516, -1.2px -1px 0 #151516, -1.2px 1px #151516, 1.2px -1px 0 #151516;
+    font-size: 2em;
 }
 p {
     padding-top: 15px;
@@ -79,10 +98,49 @@ p {
 }
 
 footer {
-    margin-top: 10px;
-    background-color: #232324;
+    background-color: #1f1f20;
 }
 #footText {
     color: #F8F8F8;
+    text-align: center;
+    font-size: .8em;
     padding: 5px 10px;
+    margin-bottom: -5px;
+}
+
+
+/*****************************************/
+/************* Media Queries *************/
+/*****************************************/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    #nav-list a {
+        font-size: 1.2em;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+}
+
+/********** Super extra small devices only (e.g. iPhone4) **********/
+@media (max-width: 479px) {
+    h1 {
+        padding-bottom: 60px;
+    }
 }
