@@ -4,16 +4,18 @@
     <meta http-equiv="X-UA-Compatible" content "IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tiffany Flor's Portfolio of Life</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
     <!-- Fonts here -->
 </head>
 <body>
-    <nav id="header-nav" class="navbar navbar-default">
+    <!-- NAVIGATION BAR -->
+    <!-- Handles collapsing -->
+    <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 
-                <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="collapsable-nav" aria-expanded="false">
+                <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -22,9 +24,9 @@
             </div>
 
             <div id="collapsable-nav" class="collapse navbar-collapse">
-                <ul id="nav-list" class="nav navbar navbar-right">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
                     <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -33,41 +35,24 @@
 
         </div>
     </nav>
-
-    <div class="picBackdrop" id="bg1">
+    <!-- END NAV BAR -->
+    <!-- Background Image -->
+    <div id="bg1">
         <h1>Tiffany Flor</h1>
-        <h3>Middle School Mathematics Teacher</h3>
+        <h2>Programmer</h2>
+        <h2>MS Math Teacher</h2>
+        <h2>Fitness &amp; Yoga Instructor</h2>
+        <div id="space"></div>
     </div>
-
-    <!-- Main Content -->
-    <div class="container">
-    
-    <!-- Scrollable blurbs, click to continue to complete content -->
-        <div class="welcome">
-            <p>Welcome to my website portfolio!</p>
-            <p>My name is Tiffany and I am transitioning into a career in web development and leadership!</p>
-        </div>
-        <div id="about">
-            <h2>About Me</h2>
-            <img src="/images/profilePic.png" alt="Tiffany's profile picture">
-            <p>From Dec 2013 to Nov 2016 I lived in Hong Kong, traveling and backpacking through 10 Asian and Pacific countries throughout my time there.</p>
-            <p>I've been exposed to a wonderful abundance of cultures, people, and working environments. The skills I developed and experiences I had are invaluable to life and to my present and future career in leadership.</p>
-            <p class="resumeLink"><a href="resume.html" target="_blank">View my resume here.</a></p>
-            <p class="portfolioLink"><a href="#portfolio">View my teaching portfolio here.</a></p>
-        </div>
-
-        <div id="contact"> <!-- LinkedIn widget -->
-
-        </div>
-    </div>
+    <!-- End Background Image -->
 
     <footer>
         <p id="footText">Copyright Tiffany Flor</p>
     </footer>
 
-        <!-- jQuery (Bootstrap JS plugins depend on it) -->
-        <script src="js/jquery-2.1.4.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/script.js"></script>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
