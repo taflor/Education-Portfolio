@@ -35,14 +35,14 @@ body, html {
 /** End Nav Bar **/
 /** Header Image **/
 #bg1 {
-    background-image: url('/images/Himalayas.JPG');
+    background-image: url('../images/Himalayas.JPG');
     height: 100%; /* Full Height of Page */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #bg2 {
-    background-image: url('/images/StupaEverestRange.jpg');
+    background-image: url('../images/StupaEverestRange.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
