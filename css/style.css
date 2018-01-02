@@ -11,17 +11,15 @@ body, html {
     background: url('../images/blackLogo.png') no-repeat;
     height: 60px;
     width: 60px;
-    margin: 0 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid #29a1f1;
 }
-.navbar-header {
-    margin-top: 10px;
-}
+
 .navbar-collapse {
     padding: 0;
-    margin-top: 12px;
+    margin-top: 15px;
 }
 #header-nav {
     background-color: #1f1f20;
@@ -80,8 +78,8 @@ body, html {
 /** Main Content **/
 h1 {
     margin: 0; /* eliminates white margin between nav and background image */
-    padding-top: 250px; /* distance between name and navbar */
-    padding-bottom: 5%;
+    padding-top: 18%; /* distance between name and navbar */
+    padding-bottom: 3%;
     text-align: center;
     color: #151516;
     text-shadow: 1.4px 1.4px #d9ecf8;
@@ -113,7 +111,6 @@ p {
     font-weight: bold;
 }
 
-
 /** About Me **/
 
 #about img {
@@ -121,13 +118,6 @@ p {
     border-radius: 20px;
     float: right;
     margin: 1em 8% 1em 2em;
-}
-#about h2 {
-    text-align: center;
-
-}
-#about p {
-    margin-left: 5%;
 }
 
 /** Portfolio **/
@@ -154,12 +144,10 @@ footer {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-
 }
 
 /********** Small devices only **********/
@@ -171,36 +159,45 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
     }
+    h1 {
+        padding-top: 22%;
+    }
+    .background h2 {
+        font-size: 1.8em;
+    }
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-    #nav-list a {
-        font-size: 1.2em;
-        padding-top: 12px;
-        padding-bottom: 12px;
-    }
     #bg3 {
         background-image: url('../images/happyTeachersSmall.jpeg');
         height: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    h1 {
+        padding: 24% 15px 3%;
+    }
+    .background h2 {
+        font-size: 1.5em;
     }
 
 }
 
 /********** Super extra small devices only (e.g. iPhone4) **********/
 @media (max-width: 479px) {
-    h1 {
-        padding-bottom: 40% 10px 50px 10px;
-        font-size: 2em;
-    }
     #bg3 {
         background-image: url('../images/happyTeachersSmall.jpeg');
         height: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    h1 {
+        padding: 26% 15px 4%;
+    }
+    .background h2 {
+        font-size: 1.5em;
     }
 }
