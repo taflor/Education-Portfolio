@@ -1,4 +1,5 @@
 body, html {
+    /*font-family: Arial, Helvetica, sans-serif;*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     font: #1f1f20;
@@ -6,11 +7,21 @@ body, html {
 }
 
 /** Navigation Bar **/
+#logo {
+    background: url('../images/blackLogo.png') no-repeat;
+    height: 60px;
+    width: 60px;
+    margin: 0 10px 10px 10px;
+}
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid #29a1f1;
 }
+.navbar-header {
+    margin-top: 10px;
+}
 .navbar-collapse {
     padding: 0;
+    margin-top: 12px;
 }
 #header-nav {
     background-color: #1f1f20;
@@ -49,23 +60,27 @@ body, html {
     background-size: cover;
 }
 #bg3 {
-    background-image: url('../images/happyTeachers.jpg');
-    height: 100%;
+    background-image: url('../images/happyTeachersShort.jpeg');
+    height: 75%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* other background images in responsive section below */
+/** Background Image CAPTIONS */
 #sportsDay, #stupa {
     text-align: center;
     font-style: italic;
     font-size: 0.8em;
+    margin-bottom: 10px;
 }
 /** End Header Image **/
 
 /** Main Content **/
 h1 {
     margin: 0; /* eliminates white margin between nav and background image */
-    padding-top: 25%; /* distance between name and navbar */
+    padding-top: 250px; /* distance between name and navbar */
     padding-bottom: 5%;
     text-align: center;
     color: #151516;
@@ -77,17 +92,25 @@ h1 {
     color: #f3f5f7;
     text-shadow: 1.4px 1.4px #151516;
 }
-h2 {
+.background h2 {
     text-align: center;
     color: #FFFFFF;
     text-shadow: 1.2px 1px 0 #151516, -1.2px -1px 0 #151516, -1.2px 1px #151516, 1.2px -1px 0 #151516;
     font-size: 2em;
+    font-weight: 500;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
 }
 p {
-    padding-top: 15px;
+    padding-top: 10px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+.title {
+    font-weight: bold;
 }
 
 
@@ -141,7 +164,13 @@ footer {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
+    #bg3 {
+        background-image: url('../images/happyTeachersShort.jpeg');
+        height: 75%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 /********** Extra small devices only **********/
@@ -151,12 +180,27 @@ footer {
         padding-top: 12px;
         padding-bottom: 12px;
     }
+    #bg3 {
+        background-image: url('../images/happyTeachersSmall.jpeg');
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
 }
 
 /********** Super extra small devices only (e.g. iPhone4) **********/
 @media (max-width: 479px) {
     h1 {
-        padding-bottom: 60px;
+        padding-bottom: 40% 10px 50px 10px;
+        font-size: 2em;
+    }
+    #bg3 {
+        background-image: url('../images/happyTeachersSmall.jpeg');
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
