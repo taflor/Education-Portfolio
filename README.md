@@ -1,36 +1,25 @@
-## Welcome to GitHub Pages
+## My Portfolio
 
-You can use the [editor on GitHub](https://github.com/taflor/Education-Portfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Check out [My Portfolio here] (https://taflor.github.io/Education-Portfolio/). This portfolio contains past projects, experience, and information about my experience in programming and education.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My passion lies in the world of education - both for myself and others. I wish to continue this lifelong journey by entering into a career in education and from there, continuing on to grad school. Feel free to check out my portfolios!
 
-### Markdown
+-[Teaching Portfolio] (https://taflor.github.io/Education-Portfolio/eduPortfolio.html)
+-[Programming Portfolio] (https://taflor.github.io/Education-Portfolio/techPortfolio.html)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### How to Use
 
-```markdown
-Syntax highlighted code block
+Click the link above to check it out!
 
-# Header 1
-## Header 2
-### Header 3
+As this site is to demonstrate my work, I am the sole creator and maintainer of this project.
 
-- Bulleted
-- List
+### Do You Have Suggestions For My Portfolio?
 
-1. Numbered
-2. List
+I would love to hear them!
 
-**Bold** and _Italic_ and `Code` text
+### Interested in Contacting Me?
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/taflor/Education-Portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Check out the [Contact Me page] (https://taflor.github.io/Education-Portfolio/contact.html) and reach out via email or LinkedIn. I am currently seeking a position as a private school educator in Memphis, TN. If you have any insight into this area or open positions, please let me know!
 
 ### Support or Contact
 
